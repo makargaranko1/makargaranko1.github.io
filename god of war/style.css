@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+.conteiner-top {
+    background: url(img/god-of-war-ragnarok-valhalla-dlc-3840x2160-18752.jpg);
+    width: calc(100vw - 17px);
+    height: 100vh;
+    background-size: cover;
+    
+}
+.main {
+    width: calc(100vw - 17px);
+    height: 100vh;
+    display: flex;
+    background: #373B44;
+    color: #fff;
+    justify-content: center;
+    align-content: center;
+}
+.logo {
+    width: 550px;
+}
+.main-right > p {
+    font-size: 18px;
+    width: 550px;
+    color: #e2e2e2;
+    line-height: 28px;
+}
+
+.trailer__link {
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.trailer__link:hover {
+    color: #00baff;
+}
+.gallery {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.gallery__img {
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+    object-fit:cover; 
+    transition: 0.5s;
+}
+.gallery__img:hover {
+    transform: scale(1.05);
+}
+.footer {
+    display: flex;
+}
+
+.img-footer {
+    width: 300px;
+}
+
